@@ -1,0 +1,133 @@
+{
+    "name": "Fernanda Dantas",
+    "description": "Desenvolvedora Front-end",
+    "github": "Fernanda-Dantas",
+    "playlists": {
+        "study videos": [
+            {
+                "title": "Weekly Routine at University",
+                "url": "https://www.youtube.com/watch?v=n3CHkSZzPbA",
+                "thumb": "https://img.youtube.com/vi/n3CHkSZzPbA/hqdefault.jpg"
+            },
+            {
+                "title": "Late Night Study With Me (7:30-11:30 after lectures)",
+                "url": "https://www.youtube.com/watch?v=e50CJPa9Wpo",
+                "thumb": "https://img.youtube.com/vi/e50CJPa9Wpo/hqdefault.jpg"
+            },
+            {
+                "title": "STUDY WITH ME (with music) 2.5 HOURS POMODORO SESSION!",
+                "url": "https://www.youtube.com/watch?v=dmDbesougG0",
+                "thumb": "https://img.youtube.com/vi/dmDbesougG0/hqdefault.jpg"
+            },
+            {
+                "title": "STUDY WITH ME (with music) 5 hour pomodoro study session!",
+                "url": "https://www.youtube.com/watch?v=Tk7DEi3nkmY",
+                "thumb": "https://img.youtube.com/vi/Tk7DEi3nkmY/hqdefault.jpg"
+            },
+            {
+                "title": "Study With Me Every Night For A Week",
+                "url": "https://www.youtube.com/watch?v=D4xIcjDBOco",
+                "thumb": "https://img.youtube.com/vi/D4xIcjDBOco/hqdefault.jpg"
+            },
+            {
+                "title": "5 days in the life of a neuroscience student: I got an internship!",
+                "url": "https://www.youtube.com/watch?v=uMW9ZRTHJNs",
+                "thumb": "https://img.youtube.com/vi/uMW9ZRTHJNs/hqdefault.jpg"
+            },
+            {
+                "title": "a week in the life studying at amsterdam uni & harvard internship",
+                "url": "https://www.youtube.com/watch?v=1jyrc-UuhhE",
+                "thumb": "https://img.youtube.com/vi/1jyrc-UuhhE/hqdefault.jpg"
+            },
+            {
+                "title": "day in the life studying at amsterdam university ",
+                "url": "https://www.youtube.com/watch?v=Eb6KUgKFd9g",
+                "thumb": "https://img.youtube.com/vi/Eb6KUgKFd9g/hqdefault.jpg"
+            }
+        ],
+        "reading vlogs": [
+            {
+                "title": "EIGHT BOOKS IN 24 HOURS || READ-A-THON (No Sleep)",
+                "url": "https://www.youtube.com/watch?v=5W3Jujl8iPQ",
+                "thumb": "https://img.youtube.com/vi/5W3Jujl8iPQ/hqdefault.jpg"
+            }, 
+            {
+                "title": "I read 7 books in 16 hours (READ-A-THON)",
+                "url": "https://www.youtube.com/watch?v=9WqXKavJohs",
+                "thumb": "https://img.youtube.com/vi/9WqXKavJohs/hqdefault.jpg"
+            }, 
+            {
+                "title": "korean books, cozy cooking, & learning to ride a bike",
+                "url": "https://www.youtube.com/watch?v=-tYvaboLtL8",
+                "thumb": "https://img.youtube.com/vi/-tYvaboLtL8/hqdefault.jpg"
+            }, 
+            {
+                "title": "i read every day for 30 days & it changed my life??? ",
+                "url": "https://www.youtube.com/watch?v=NSCl5muAHwg",
+                "thumb": "https://img.youtube.com/vi/NSCl5muAHwg/hqdefault.jpg"
+            }, 
+            {
+                "title": "READING VLOG: reading books in a cozy cabin!",
+                "url": "https://www.youtube.com/watch?v=5SpVxatHO5E",
+                "thumb": "https://img.youtube.com/vi/5SpVxatHO5E/hqdefault.jpg"
+            }, 
+            {
+                "title": "48 hour read-a-thon 📚 (3 books & 1000 pages!)",
+                "url": "https://www.youtube.com/watch?v=C_kDwJmw5dk",
+                "thumb": "https://img.youtube.com/vi/C_kDwJmw5dk/hqdefault.jpg"
+            }, 
+            {
+                "title": "READING VLOG: Reading Creepy Books In a Cozy Cabin!",
+                "url": "https://www.youtube.com/watch?v=jGpkuqCK3Vk",
+                "thumb": "https://img.youtube.com/vi/jGpkuqCK3Vk/hqdefault.jpg"
+            }, 
+            {
+                "title": "READING VLOG: THE LONGEST VLOG + 600+ Pages Read!",
+                "url": "https://www.youtube.com/watch?v=B-hcA0OVTPs",
+                "thumb": "https://img.youtube.com/vi/B-hcA0OVTPs/hqdefault.jpg"
+            }
+        ],
+        "favorite vlogs": [
+            {
+                "title": "A Chill Day, with Us",
+                "url": "https://www.youtube.com/watch?v=ZwyRLHSHI5M",
+                "thumb": "https://img.youtube.com/vi/ZwyRLHSHI5M/hqdefault.jpg"
+            },
+            {
+                "title": "reading books with gilmore girls vibes bc i want to feel like i live in a small town",
+                "url": "https://www.youtube.com/watch?v=YbO0V1HNbtU",
+                "thumb": "https://img.youtube.com/vi/YbO0V1HNbtU/hqdefault.jpg"
+            }, 
+            {
+                "title": "MY EVENING: Dinner, Skincare, Relax. ",
+                "url": "https://www.youtube.com/watch?v=AA2sp9kq_Ow",
+                "thumb": "https://img.youtube.com/vi/AA2sp9kq_Ow/hqdefault.jpg"
+            }, 
+            {
+                "title": "Movie Night.",
+                "url": "https://www.youtube.com/watch?v=B66RzJ0AaoE",
+                "thumb": "https://img.youtube.com/vi/B66RzJ0AaoE/hqdefault.jpg"
+            }, 
+            {
+                "title": "3 Days with Me. ",
+                "url": "https://www.youtube.com/watch?v=hXDGl1aidp0",
+                "thumb": "https://img.youtube.com/vi/hXDGl1aidp0/hqdefault.jpg"
+            }, 
+            {
+                "title": "Italy Travel Vlog: exploring ancient ruins, pasta, & art galore",
+                "url": "https://www.youtube.com/watch?v=yZpacBP-OVk",
+                "thumb": "https://img.youtube.com/vi/yZpacBP-OVk/hqdefault.jpg"
+            }, 
+            {
+                "title": "My Dog was invited by The Governor of Japan (Gunma)",
+                "url": "https://www.youtube.com/watch?v=sIw9GwePGKg",
+                "thumb": "https://img.youtube.com/vi/sIw9GwePGKg/hqdefault.jpg"
+            }, 
+            {
+                "title": "a sleep deprived room transformation!",
+                "url": "https://www.youtube.com/watch?v=ys7k_Ohu9JQ",
+                "thumb": "https://img.youtube.com/vi/ys7k_Ohu9JQ/hqdefault.jpg"
+            } 
+        ]
+    }
+}
