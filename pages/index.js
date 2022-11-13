@@ -14,10 +14,11 @@ function HomePage() {
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
-                backgroundColor: "#FDD7C2",
+                backgroundColor: "#FFC16E",
             }}>
                 
                 <Menu />
+                <Banner />
                 <Header />
                 <Timeline playlists={config.playlists} />
             </div>
@@ -32,6 +33,21 @@ function HomePage() {
 //         <div>Menu</div>
 //     )
 //   }
+const StyledBanner = styled.div`
+img {
+    width: 100%;
+    height: 350px;
+    
+}
+.banner {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+`;
 
   const StyleHeader = styled.div`
         img {
@@ -40,7 +56,7 @@ function HomePage() {
             border-radius: 50%;
         }
         .user-info {
-            margin-top: 50px;
+            margin-top: 10px;
             display: flex;
             align-items: center;
             width: 100%;
@@ -48,6 +64,16 @@ function HomePage() {
             gap: 16px;
         }
     `;
+
+    function Banner(props) {
+        return (
+            <StyledBanner>
+                <section className="banner">
+                    <img src={config.banner} />
+                </section>
+            </StyledBanner>
+        )
+    }
 
   function Header() {
     return (
