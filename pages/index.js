@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { CSSReset } from '../src/components/CSSReset';
 import Menu from '../src/components/Menu';
 import { StyledTimeline } from '../src/components/Timeline';
+import { StyledFavoritos } from '../src/components/Favoritos';
+
 
 function HomePage() {
     // const estilosDaHomePage = {backgroundColor: "lightpink"}
@@ -21,6 +23,7 @@ function HomePage() {
                 <Banner />
                 <Header />
                 <Timeline playlists={config.playlists} />
+                <Favoritos canais={config.canais} />
             </div>
         </>
     )
@@ -36,8 +39,7 @@ function HomePage() {
 const StyledBanner = styled.div`
 img {
     width: 100%;
-    height: 350px;
-    
+    height: 400px;    
 }
 .banner {
     position: relative;
@@ -121,3 +123,35 @@ img {
             </StyledTimeline>
         )
     }
+
+function Favoritos(props) {
+    const youtuberNames = Object.keys(props.canais)
+    return (
+        <StyledFavoritos>
+            {youtuberNames.map((youtuberName) => {
+                const youtubers = props.canais[youtuberName]
+                return (
+                    <section>
+                        <h2>{youtuberName}</h2>
+                    
+                    <div>
+                        {youtubers.map((youtuber) => {
+                            return (
+                                <a href={youtuber.url}>
+                                <img src={youtuber.imagem} />
+                                <span>
+                                    {youtuber.title}
+                                </span>
+                                </a>
+                            )
+                        })}
+                    </div>
+                    </section>
+                )
+            })}
+
+        </StyledFavoritos>
+    )
+}
+
+

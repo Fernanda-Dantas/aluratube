@@ -3,6 +3,30 @@
     "description": "Desenvolvedora Front-end",
     "github": "Fernanda-Dantas",
     "banner": "https://images.unsplash.com/photo-1647792855184-af42f1720b91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+    "canais": {
+        "Meus canais favoritos": [
+            {
+                "title": "Ruby Granger",
+                "url": "https://www.youtube.com/c/RubyGranger8",
+                "imagem": "https://yt3.ggpht.com/ytc/AMLnZu9fN1jgsB7VjaVeMceV2r2wOS9Jop3KY1hXMBtEVA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "title": "Peruse Project",
+                "url": "https://www.youtube.com/c/PeruseProject",
+                "imagem": "https://yt3.ggpht.com/ytc/AMLnZu8rk6sawk9OV5F9de27wuaqiD1egWJGZOy7Z0xQjQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "title": "Monica Kim",
+                "url": "https://www.youtube.com/c/shemightbemonica",
+                "imagem": "https://yt3.ggpht.com/eCh8GF6FbBgvy_NxloMuHjA3jzS2-l368rJbbjZt_4a28uEpzIB6TgWo7vhYsdrooVStk1uo0w=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "title": "The Book Leo",
+                "url": "https://www.youtube.com/c/TheBookLeo",
+                "imagem": "https://yt3.ggpht.com/ytc/AMLnZu9GcvcQ776xme8M1MM9PqSv0vGltq0e9aHkCzlbdw=s88-c-k-c0x00ffffff-no-rj"
+            }
+        ]
+    },
     "playlists": {
         "study videos": [
             {
