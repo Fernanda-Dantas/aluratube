@@ -5,7 +5,7 @@ export const StyledTimeline = styled.div`
   width: 100%;
   padding: 16px;
   overflow: hidden;
-  background-color: #FFC16E; 
+  background-color: ${({ theme }) => theme.backgroundLevel1}; 
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
@@ -36,6 +36,7 @@ export const StyledTimeline = styled.div`
       scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
+        
         span {
           padding-top: 8px;
           display: block;
