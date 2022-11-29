@@ -9,7 +9,7 @@ const theme = {
         backgroundBase: "#f9f9f9",
         backgroundLevel1: "#FFC16E",
         backgroundLevel2: "#f0f0f0",
-        borderBase: "#e5e5e5",
+        borderBase: "#FFC16E",
         textColorBase: "#222222", 
     },
 

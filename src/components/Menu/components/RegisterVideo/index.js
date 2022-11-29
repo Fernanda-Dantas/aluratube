@@ -1,26 +1,31 @@
 import React from "react";
 import { StyledRegisterVideo } from "./styles";
 
+// Custom Hook
 function useForm(propsDoForm) {
     const [values, setValues] = React.useState(propsDoForm.initialValues);
     return {
         values,
         handleChange: (evento) => {
             const value = evento.target.value;
-            console.log(values);
+            const name = evento.target.name;
+            // const thumb = evento.target.thumb;
             setValues({
                 ...values,
-                titulo: value,
+                [name]: value,
             });
+        },
+        clearForm() {
+            setValues({});
         }
     };
 }
 
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: {titulo: "Reading Vlog", url: "http://youtube.com" }
+        initialValues: {titulo: "Reading Vlog", url: "http://youtube.com/" }
     });
-    const [formVisivel, setFormVisivel] = React.useState(true);
+    const [formVisivel, setFormVisivel] = React.useState(false);
     
     return (
         <StyledRegisterVideo>
@@ -31,27 +36,25 @@ export default function RegisterVideo() {
                 ? (
                     <form onSubmit={(evento) => {
                         evento.preventDefault();
-                        console.log(values);
+                        console.log(formCadastro.values);
+                        setFormVisivel(false);
+                        formCadastro.clearForm();
                     }}>
                         <div>
-                            <button className="close-modal" onClick={() => setFormVisivel(false)}>
+                            <button type="button" className="close-modal" onClick={() => setFormVisivel(false)}>
                                 X
                             </button>
                             <input 
                                 placeholder="Título de vídeo" 
+                                name="titulo"
                                 value={formCadastro.values.titulo} 
                                 onChange={formCadastro.handleChange}
                             />
                             <input 
                                 placeholder="URl do vídeo" 
+                                name="url"
                                 value={formCadastro.values.url} 
-                                onChange={(evento) => {
-                                const value = evento.target.value;
-                                setValues({
-                                    ...values,
-                                    url: value,
-                                });    
-                            }} />
+                                onChange={formCadastro.handleChange} />
                             <button type="submit">
                                 Cadastrar
                             </button>
