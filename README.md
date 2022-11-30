@@ -22,8 +22,9 @@ Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos
 
 ### Como me localizar no projeto?
 - Todas as páginas do projeto estão listadas em `./pages`
-  - Todos os `componentes` que representam as páginas estão em `./src/screens`
-    - Uma vez dentro de uma página você pode ir navegando pelos componentes para ir se encontrando e fazer a alteração que deseja
+   - As chamadas de serviços externos estão na pasta `./src/components/services`
+  - Todos os `componentes` que representam as páginas estão em `./src/components`
+    - Uma vez dentro da pasta `./src/components` você pode ir navegando pelos componentes e outras partes da aplicação, como CSSReset, Timeline e Favoritos para fazer a alteração que deseja.
     
 ## Aprendizados
 
