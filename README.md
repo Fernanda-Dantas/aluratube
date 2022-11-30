@@ -32,8 +32,9 @@ Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos
 - NPM scripts;
 - React;
 - StyledComponents;
- Props no React;
-Vimos sobre o children do React;
+- Props, Custom Hooks, useState e useEffect;
+- Design Systems;
+- Fetch API.
 
 
 ## Resultado Final
