@@ -10,7 +10,6 @@ function useForm(propsDoForm) {
         handleChange: (evento) => {
             const value = evento.target.value;
             const name = evento.target.name;
-            // const thumb = evento.target.thumb;
             setValues({
                 ...values,
                 [name]: value,

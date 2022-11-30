@@ -50,7 +50,6 @@ function HomePage() {
 
 const StyledBanner = styled.div`
     background-image: url(${({banner}) => banner });
-    /* background-image: url(${config.banner}); */
     height: 230px;
     background-size: cover;
 `;

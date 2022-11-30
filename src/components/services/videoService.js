@@ -12,5 +12,3 @@ export function videoService() {
         }
     }
 }
-
-// pasta service: possui todas as chamadas de serviço externo que temos no projeto.

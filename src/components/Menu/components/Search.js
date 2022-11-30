@@ -34,7 +34,6 @@ const StyledSearch = styled.div`
   }
 `;
 
-
 export default function Search({ valorDoFiltro, setvalorDoFiltro }) {
     const valorDaBusca = valorDoFiltro;
     const setValorDaBusca = setvalorDoFiltro;
