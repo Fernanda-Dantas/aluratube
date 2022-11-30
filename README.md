@@ -7,6 +7,7 @@ Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos
 ### Setup de ambiente:
 - [Node LTS](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
+- [supabase](https://supabase.com/)
 
 ## aluratube Site
 
