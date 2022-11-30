@@ -4,10 +4,28 @@ import styled from "styled-components";
 import Menu from '../src/components/Menu';
 import { StyledTimeline } from '../src/components/Timeline';
 import { StyledFavoritos } from '../src/components/Favoritos';
-
+import { videoService } from "../src/components/services/videoService";
 
 function HomePage() {
+    const service = videoService();
     const [valorDoFiltro, setvalorDoFiltro] = React.useState("");
+    const [playlists, setPlaylists] = React.useState({});
+
+    React.useEffect(() => {
+        service.getAllVideos()
+            .then((dados) => {
+                console.log(dados.data);
+                // Forma imutavel
+                const novasPlaylists = {...playlists};
+                dados.data.forEach((video) => {
+                    if(!novasPlaylists[video.playlist]) novasPlaylists[video.playlist] = [];
+                    novasPlaylists[video.playlist].push(video);
+                })
+                setPlaylists(novasPlaylists);
+            });
+            console.log("playlists prontas", playlists)
+    }, []);
+
     return (
         <>
             <div style={{
