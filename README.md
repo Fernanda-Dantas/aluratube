@@ -1,4 +1,8 @@
 # aluratube
+Acesse o site [aqui.](https://aluratube-liard-kappa.vercel.app/)
+
+![aluratube_gif](https://user-images.githubusercontent.com/81118959/204857993-6be3c747-96b9-4db0-85af-8089b5c13d3a.gif)
+
 
 ## Descrição
 Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos a criar uma interface de reprodução de vídeos.
@@ -36,5 +40,3 @@ Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos
 - Design Systems;
 - Fetch API.
 
-
-## Resultado Final
