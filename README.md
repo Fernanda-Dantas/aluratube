@@ -14,7 +14,7 @@ Projeto realizado durante a IMERSÃO REACT 5: ALURATUBE da Alura onde aprendemos
 ### Estrutura do projeto
 
 - `./pages/_app.js`: É a página que o Next.js usa para montar o sistema de roteamento global
-- `./src/components`: São todos os pedaços primordiais de interface como componentes
+- `./src/components/Menu/components`: São todos os pedaços primordiais de interface como componentes
 - `./src/components/RegisterVideo`: São todos os arquivos para cadastrar novos vídeos pelo formulário
 - `./src/components/ColorModeProvider`: Oferece o state de light ou dark mode para toda a aplicação
 - `./src/components/services`: A pasta services possui todas as chamadas de serviço externo que temos no projeto.
